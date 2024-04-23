@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MiniShoppingCartAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MiniShoppingCartAPI.Controllers.UserController.RegisterUsers(MiniShoppingCartAPI.Models.UserDto)">
+            <summary>
+            User Registration
+            </summary>
+            <param name="userDto">Fill in username, email and password to register</param>
+            <returns></returns>
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.SetupDb">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.SetupDb.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.SetupDb.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.SetupDb.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.SeedData">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.SeedData.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.SeedData.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.SeedData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.UpdateForeignKey">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKey.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKey.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKey.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.RemoveForeignKey">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.RemoveForeignKey.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.RemoveForeignKey.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.RemoveForeignKey.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct3">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct3.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct3.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct3.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct4">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct4.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct4.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct4.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct5">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct5.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct5.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct5.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct6">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct6.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct6.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct6.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct7">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct7.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct7.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct7.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct8">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct8.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct8.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct8.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct9">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct9.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct9.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct9.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct10">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct10.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct10.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct10.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct11">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct11.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct11.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.UpdateForeignKeyForUserAndProduct11.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.NewCartEntity">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.NewCartEntity.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.NewCartEntity.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.NewCartEntity.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.ResetUsersTable">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.ResetUsersTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.ResetUsersTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.ResetUsersTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.ResetUsersTable1">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.ResetUsersTable1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.ResetUsersTable1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.ResetUsersTable1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.changingDatabase">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.changingDatabase.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.changingDatabase.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.changingDatabase.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.SetupNewDb">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.SetupNewDb.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.SetupNewDb.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.SetupNewDb.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateForNewDatabase">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateForNewDatabase.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateForNewDatabase.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateForNewDatabase.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateDb">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateDb.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateDb.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateDb.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateDb1">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateDb1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateDb1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateDb1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.RemoveUpdateDb1">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.RemoveUpdateDb1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.RemoveUpdateDb1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.RemoveUpdateDb1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateDb3">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateDb3.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateDb3.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateDb3.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.NewDB2">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.NewDB2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.NewDB2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.NewDB2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateNewDB2">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateNewDB2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateNewDB2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.UpdateNewDB2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.RemoveUpdateNewDB2">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.RemoveUpdateNewDB2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.RemoveUpdateNewDB2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressMigrations.RemoveUpdateNewDB2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

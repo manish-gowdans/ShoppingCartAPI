@@ -1,0 +1,2388 @@
+{
+  "MiniShoppingCartAPI.dll": {
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "9": 0,
+            "13": 0,
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "63": 0,
+            "64": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "98": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "107": 0,
+            "109": 0,
+            "111": 0,
+            "113": 0,
+            "115": 0,
+            "117": 0
+          },
+          "Branches": [
+            {
+              "Line": 101,
+              "Offset": 277,
+              "EndOffset": 279,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 101,
+              "Offset": 277,
+              "EndOffset": 297,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Translation_Code\\DtoToEntity.cs": {
+      "MiniShoppingCartAPI.Mapping_Code.DtoToEntity": {
+        "MiniShoppingCartAPI.Entities.Cart MiniShoppingCartAPI.Mapping_Code.DtoToEntity::FromCartDto(MiniShoppingCartAPI.Models.CartDto)": {
+          "Lines": {
+            "9": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1
+          },
+          "Branches": []
+        },
+        "MiniShoppingCartAPI.Entities.User MiniShoppingCartAPI.Mapping_Code.DtoToEntity::FromUserDto(MiniShoppingCartAPI.Models.UserDto)": {
+          "Lines": {
+            "19": 6,
+            "20": 6,
+            "21": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Translation_Code\\ExtractProduct.cs": {
+      "MiniShoppingCartAPI.Mapping_Code.ExtractProduct": {
+        "System.Collections.Generic.List`1<MiniShoppingCartAPI.Models.ViewCartInfo> MiniShoppingCartAPI.Mapping_Code.ExtractProduct::AddEverySingleProductFromCartToList(MiniShoppingCartAPI.Entities.Product,System.Collections.Generic.List`1<MiniShoppingCartAPI.Models.ViewCartInfo>,System.Int32)": {
+          "Lines": {
+            "12": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "22": 1,
+            "23": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Services\\ShoppingCartInfoRepository.cs": {
+      "MiniShoppingCartAPI.Services.ShoppingCartInfoRepository": {
+        "System.Void MiniShoppingCartAPI.Services.ShoppingCartInfoRepository::RegisterUsersAsync(MiniShoppingCartAPI.Entities.User)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Guid MiniShoppingCartAPI.Services.ShoppingCartInfoRepository::GetUserIdFromDb(MiniShoppingCartAPI.Entities.User)": {
+          "Lines": {
+            "32": 1,
+            "33": 1,
+            "34": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean MiniShoppingCartAPI.Services.ShoppingCartInfoRepository::CheckIfProductIsAddedIntoCart(System.Guid,System.Guid,System.Guid)": {
+          "Lines": {
+            "73": 0,
+            "74": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "81": 0,
+            "82": 0
+          },
+          "Branches": [
+            {
+              "Line": 76,
+              "Offset": 301,
+              "EndOffset": 303,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 301,
+              "EndOffset": 309,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void MiniShoppingCartAPI.Services.ShoppingCartInfoRepository::RemoveFromCart(System.Guid,System.Guid)": {
+          "Lines": {
+            "108": 0,
+            "109": 0,
+            "111": 0,
+            "112": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "118": 0
+          },
+          "Branches": [
+            {
+              "Line": 111,
+              "Offset": 305,
+              "EndOffset": 307,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 111,
+              "Offset": 305,
+              "EndOffset": 345,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "MiniShoppingCartAPI.Entities.Cart MiniShoppingCartAPI.Services.ShoppingCartInfoRepository::GetFromCart(System.Guid)": {
+          "Lines": {
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "127": 0,
+            "128": 0
+          },
+          "Branches": [
+            {
+              "Line": 122,
+              "Offset": 146,
+              "EndOffset": 148,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 122,
+              "Offset": 146,
+              "EndOffset": 160,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Int32 MiniShoppingCartAPI.Services.ShoppingCartInfoRepository::CheckIfProductsExistAfterCheckout(System.Guid,System.Guid)": {
+          "Lines": {
+            "149": 0,
+            "150": 0,
+            "152": 0
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.Services.ShoppingCartInfoRepository::UpdateQuanityOfProductsInDb(System.Guid,System.Guid,System.Int32)": {
+          "Lines": {
+            "157": 0,
+            "158": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "196": 0,
+            "197": 0,
+            "199": 0
+          },
+          "Branches": [
+            {
+              "Line": 162,
+              "Offset": 146,
+              "EndOffset": 151,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 164,
+              "Offset": 175,
+              "EndOffset": 177,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 164,
+              "Offset": 175,
+              "EndOffset": 223,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 170,
+              "Offset": 244,
+              "EndOffset": 246,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 170,
+              "Offset": 244,
+              "EndOffset": 273,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 184,
+              "Offset": 282,
+              "EndOffset": 284,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 184,
+              "Offset": 282,
+              "EndOffset": 335,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 190,
+              "Offset": 344,
+              "EndOffset": 346,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 190,
+              "Offset": 344,
+              "EndOffset": 373,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 162,
+              "Offset": 146,
+              "EndOffset": 386,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void MiniShoppingCartAPI.Services.ShoppingCartInfoRepository::UpdateQuantityOfEachProductInCartDb(System.Guid,System.Guid,System.Int32)": {
+          "Lines": {
+            "202": 0,
+            "203": 0,
+            "205": 0,
+            "206": 0,
+            "208": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0
+          },
+          "Branches": [
+            {
+              "Line": 205,
+              "Offset": 231,
+              "EndOffset": 233,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 205,
+              "Offset": 231,
+              "EndOffset": 255,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void MiniShoppingCartAPI.Services.ShoppingCartInfoRepository::.ctor(MiniShoppingCartAPI.DbContexts.MiniShoppingCartApiContextSQLExpress)": {
+          "Lines": {
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<AddToCartAsync>d__11": {
+        "System.Void MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<AddToCartAsync>d__11::MoveNext()": {
+          "Lines": {
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "88": 0
+          },
+          "Branches": []
+        }
+      },
+      "MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<CheckForCartIdExistsAsync>d__12": {
+        "System.Void MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<CheckForCartIdExistsAsync>d__12::MoveNext()": {
+          "Lines": {
+            "90": 0,
+            "91": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "98": 0,
+            "99": 0
+          },
+          "Branches": [
+            {
+              "Line": 93,
+              "Offset": 498,
+              "EndOffset": 500,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 93,
+              "Offset": 498,
+              "EndOffset": 505,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<ExtractProductAsync>d__8": {
+        "System.Void MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<ExtractProductAsync>d__8::MoveNext()": {
+          "Lines": {
+            "62": 0,
+            "63": 0,
+            "64": 0
+          },
+          "Branches": []
+        }
+      },
+      "MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<GetQuantityOfEachProductAddedIntoCartAsync>d__13": {
+        "System.Void MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<GetQuantityOfEachProductAddedIntoCartAsync>d__13::MoveNext()": {
+          "Lines": {
+            "103": 0,
+            "104": 0,
+            "105": 0
+          },
+          "Branches": []
+        }
+      },
+      "MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<GetUserAsync>d__4": {
+        "System.Void MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<GetUserAsync>d__4::MoveNext()": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "41": 0
+          },
+          "Branches": []
+        }
+      },
+      "MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<GetUserEmailAsync>d__5": {
+        "System.Void MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<GetUserEmailAsync>d__5::MoveNext()": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "47": 0
+          },
+          "Branches": []
+        }
+      },
+      "MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<GetUserFromIdAsync>d__6": {
+        "System.Void MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<GetUserFromIdAsync>d__6::MoveNext()": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "53": 0
+          },
+          "Branches": []
+        }
+      },
+      "MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<SaveUpdatedChanges>d__17": {
+        "System.Void MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<SaveUpdatedChanges>d__17::MoveNext()": {
+          "Lines": {
+            "142": 0,
+            "143": 0,
+            "144": 0
+          },
+          "Branches": []
+        }
+      },
+      "MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<UpdateQuantityInCartAsync>d__16": {
+        "System.Void MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<UpdateQuantityInCartAsync>d__16::MoveNext()": {
+          "Lines": {
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "137": 0,
+            "139": 0
+          },
+          "Branches": [
+            {
+              "Line": 133,
+              "Offset": 419,
+              "EndOffset": 421,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 133,
+              "Offset": 419,
+              "EndOffset": 455,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<ViewCartAsync>d__9": {
+        "System.Void MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<ViewCartAsync>d__9::MoveNext()": {
+          "Lines": {
+            "69": 0,
+            "70": 0,
+            "71": 0
+          },
+          "Branches": []
+        }
+      },
+      "MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<ViewProductsAsync>d__7": {
+        "System.Void MiniShoppingCartAPI.Services.ShoppingCartInfoRepository/<ViewProductsAsync>d__7::MoveNext()": {
+          "Lines": {
+            "58": 0,
+            "59": 0,
+            "60": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Services\\Verify.cs": {
+      "MiniShoppingCartAPI.Services.Verify": {
+        "System.Void MiniShoppingCartAPI.Services.Verify::.ctor(MiniShoppingCartAPI.Services.IShoppingCartInfoRepository)": {
+          "Lines": {
+            "11": 6,
+            "12": 6,
+            "13": 6,
+            "14": 6
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 6
+            }
+          ]
+        }
+      },
+      "MiniShoppingCartAPI.Services.Verify/<ProductExist>d__3": {
+        "System.Void MiniShoppingCartAPI.Services.Verify/<ProductExist>d__3::MoveNext()": {
+          "Lines": {
+            "26": 2,
+            "27": 2,
+            "28": 2,
+            "29": 1,
+            "30": 1,
+            "32": 1,
+            "33": 2
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 164,
+              "EndOffset": 166,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 28,
+              "Offset": 164,
+              "EndOffset": 171,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "MiniShoppingCartAPI.Services.Verify/<ProductQuantity>d__4": {
+        "System.Void MiniShoppingCartAPI.Services.Verify/<ProductQuantity>d__4::MoveNext()": {
+          "Lines": {
+            "36": 2,
+            "38": 2,
+            "39": 2,
+            "40": 1,
+            "41": 1,
+            "43": 1,
+            "45": 2
+          },
+          "Branches": [
+            {
+              "Line": 39,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 39,
+              "Offset": 169,
+              "EndOffset": 176,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "MiniShoppingCartAPI.Services.Verify/<ValidUser>d__2": {
+        "System.Void MiniShoppingCartAPI.Services.Verify/<ValidUser>d__2::MoveNext()": {
+          "Lines": {
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 1,
+            "20": 1,
+            "22": 1,
+            "23": 2
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 164,
+              "EndOffset": 166,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 18,
+              "Offset": 164,
+              "EndOffset": 171,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Models\\CartDto.cs": {
+      "MiniShoppingCartAPI.Models.CartDto": {
+        "System.Guid MiniShoppingCartAPI.Models.CartDto::get_Pid()": {
+          "Lines": {
+            "10": 12
+          },
+          "Branches": []
+        },
+        "System.Int32 MiniShoppingCartAPI.Models.CartDto::get_SetQuantity()": {
+          "Lines": {
+            "12": 9
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.Models.CartDto::.ctor()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.Models.CartDto::.ctor(System.Guid,System.Int32)": {
+          "Lines": {
+            "15": 2,
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Models\\ProductDto.cs": {
+      "MiniShoppingCartAPI.Models.ProductDto": {
+        "System.Guid MiniShoppingCartAPI.Models.ProductDto::get_Pid()": {
+          "Lines": {
+            "8": 1
+          },
+          "Branches": []
+        },
+        "System.String MiniShoppingCartAPI.Models.ProductDto::get_Productname()": {
+          "Lines": {
+            "11": 1
+          },
+          "Branches": []
+        },
+        "System.Int32 MiniShoppingCartAPI.Models.ProductDto::get_Quantity()": {
+          "Lines": {
+            "13": 1
+          },
+          "Branches": []
+        },
+        "System.Int32 MiniShoppingCartAPI.Models.ProductDto::get_Price()": {
+          "Lines": {
+            "15": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Models\\ProductIdDto.cs": {
+      "MiniShoppingCartAPI.Models.ProductIdDto": {
+        "System.Guid MiniShoppingCartAPI.Models.ProductIdDto::get_Pid()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Models\\UserDto.cs": {
+      "MiniShoppingCartAPI.Models.UserDto": {
+        "System.String MiniShoppingCartAPI.Models.UserDto::get_Username()": {
+          "Lines": {
+            "10": 14
+          },
+          "Branches": []
+        },
+        "System.String MiniShoppingCartAPI.Models.UserDto::get_EmailAddress()": {
+          "Lines": {
+            "13": 16
+          },
+          "Branches": []
+        },
+        "System.String MiniShoppingCartAPI.Models.UserDto::get_Password()": {
+          "Lines": {
+            "16": 9
+          },
+          "Branches": []
+        },
+        "MiniShoppingCartAPI.Models.UserDto MiniShoppingCartAPI.Models.UserDto::FromEntity(MiniShoppingCartAPI.Entities.User)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.Models.UserDto::.ctor(System.String,System.String,System.String)": {
+          "Lines": {
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "21": 3,
+            "22": 3,
+            "23": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Models\\ViewCartDto.cs": {
+      "MiniShoppingCartAPI.Models.ViewCartDto": {
+        "System.String MiniShoppingCartAPI.Models.ViewCartDto::get_Username()": {
+          "Lines": {
+            "6": 1
+          },
+          "Branches": []
+        },
+        "System.Int32 MiniShoppingCartAPI.Models.ViewCartDto::get_TotalProductsAddedIntoCart()": {
+          "Lines": {
+            "7": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<MiniShoppingCartAPI.Models.ViewCartInfo> MiniShoppingCartAPI.Models.ViewCartDto::get_viewCart()": {
+          "Lines": {
+            "9": 1
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.Models.ViewCartDto::.ctor(System.String,System.Int32,System.Collections.Generic.List`1<MiniShoppingCartAPI.Models.ViewCartInfo>)": {
+          "Lines": {
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Models\\ViewCartInfo.cs": {
+      "MiniShoppingCartAPI.Models.ViewCartInfo": {
+        "System.Guid MiniShoppingCartAPI.Models.ViewCartInfo::get_ProductId()": {
+          "Lines": {
+            "6": 1
+          },
+          "Branches": []
+        },
+        "System.String MiniShoppingCartAPI.Models.ViewCartInfo::get_ProductName()": {
+          "Lines": {
+            "8": 1
+          },
+          "Branches": []
+        },
+        "System.Int32 MiniShoppingCartAPI.Models.ViewCartInfo::get_ProductQuantityPresentInUsersCart()": {
+          "Lines": {
+            "10": 1
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.Models.ViewCartInfo::.ctor(System.String)": {
+          "Lines": {
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Migrations\\20240224070627_SetupDb.cs": {
+      "MiniShoppingCartAPI.Migrations.SetupDb": {
+        "System.Void MiniShoppingCartAPI.Migrations.SetupDb::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.Migrations.SetupDb::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "99": 0,
+            "100": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Migrations\\20240224070627_SetupDb.Designer.cs": {
+      "MiniShoppingCartAPI.Migrations.SetupDb": {
+        "System.Void MiniShoppingCartAPI.Migrations.SetupDb::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "156": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Migrations\\MiniShoppingCartApiContextSQLExpressModelSnapshot.cs": {
+      "MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressModelSnapshot": {
+        "System.Void MiniShoppingCartAPI.Migrations.MiniShoppingCartApiContextSQLExpressModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "153": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Entities\\Cart.cs": {
+      "MiniShoppingCartAPI.Entities.Cart": {
+        "System.Guid MiniShoppingCartAPI.Entities.Cart::get_CartId()": {
+          "Lines": {
+            "10": 1
+          },
+          "Branches": []
+        },
+        "System.Guid MiniShoppingCartAPI.Entities.Cart::get_UserId()": {
+          "Lines": {
+            "13": 2
+          },
+          "Branches": []
+        },
+        "MiniShoppingCartAPI.Entities.User MiniShoppingCartAPI.Entities.Cart::get_User()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Guid MiniShoppingCartAPI.Entities.Cart::get_ProductId()": {
+          "Lines": {
+            "17": 4
+          },
+          "Branches": []
+        },
+        "MiniShoppingCartAPI.Entities.Product MiniShoppingCartAPI.Entities.Cart::get_Product()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 MiniShoppingCartAPI.Entities.Cart::get_SetQuantity()": {
+          "Lines": {
+            "21": 2
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.Entities.Cart::.ctor()": {
+          "Lines": {
+            "23": 2,
+            "24": 2,
+            "26": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Entities\\Product.cs": {
+      "MiniShoppingCartAPI.Entities.Product": {
+        "System.Guid MiniShoppingCartAPI.Entities.Product::get_Pid()": {
+          "Lines": {
+            "10": 3
+          },
+          "Branches": []
+        },
+        "System.String MiniShoppingCartAPI.Entities.Product::get_Productname()": {
+          "Lines": {
+            "13": 7
+          },
+          "Branches": []
+        },
+        "System.Int32 MiniShoppingCartAPI.Entities.Product::get_Quantity()": {
+          "Lines": {
+            "15": 10
+          },
+          "Branches": []
+        },
+        "System.Int32 MiniShoppingCartAPI.Entities.Product::get_Price()": {
+          "Lines": {
+            "17": 4
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.Entities.Product::.ctor()": {
+          "Lines": {
+            "18": 12
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.Entities.Product::.ctor(System.String,System.Int32,System.Int32)": {
+          "Lines": {
+            "19": 3,
+            "20": 3,
+            "21": 3,
+            "22": 3,
+            "23": 3,
+            "24": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Entities\\User.cs": {
+      "MiniShoppingCartAPI.Entities.User": {
+        "System.Guid MiniShoppingCartAPI.Entities.User::get_Uid()": {
+          "Lines": {
+            "11": 5
+          },
+          "Branches": []
+        },
+        "System.String MiniShoppingCartAPI.Entities.User::get_Username()": {
+          "Lines": {
+            "14": 40
+          },
+          "Branches": []
+        },
+        "System.String MiniShoppingCartAPI.Entities.User::get_EmailAddress()": {
+          "Lines": {
+            "18": 23
+          },
+          "Branches": []
+        },
+        "System.String MiniShoppingCartAPI.Entities.User::get_Password()": {
+          "Lines": {
+            "21": 23
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.Entities.User::.ctor()": {
+          "Lines": {
+            "23": 42
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.Entities.User::.ctor(System.String,System.String,System.String)": {
+          "Lines": {
+            "25": 12,
+            "26": 12,
+            "27": 12,
+            "28": 12,
+            "29": 12,
+            "30": 12
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\DbContexts\\MiniShoppingCartApiContextSQLExpress.cs": {
+      "MiniShoppingCartAPI.DbContexts.MiniShoppingCartApiContextSQLExpress": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<MiniShoppingCartAPI.Entities.User> MiniShoppingCartAPI.DbContexts.MiniShoppingCartApiContextSQLExpress::get_Users()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<MiniShoppingCartAPI.Entities.Product> MiniShoppingCartAPI.DbContexts.MiniShoppingCartApiContextSQLExpress::get_Products()": {
+          "Lines": {
+            "9": 1
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<MiniShoppingCartAPI.Entities.Cart> MiniShoppingCartAPI.DbContexts.MiniShoppingCartApiContextSQLExpress::get_Carts()": {
+          "Lines": {
+            "10": 1
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.DbContexts.MiniShoppingCartApiContextSQLExpress::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.DbContexts.MiniShoppingCartApiContextSQLExpress::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<MiniShoppingCartAPI.DbContexts.MiniShoppingCartApiContextSQLExpress>)": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.DbContexts.MiniShoppingCartApiContextSQLExpress::.ctor()": {
+          "Lines": {
+            "14": 1,
+            "15": 1,
+            "16": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Controllers\\AuthController.cs": {
+      "MiniShoppingCartAPI.Controllers.AuthController": {
+        "System.Void MiniShoppingCartAPI.Controllers.AuthController::.ctor(MiniShoppingCartAPI.Services.IShoppingCartInfoRepository,Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "22": 2,
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 2
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 25,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 33,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "MiniShoppingCartAPI.Controllers.AuthController/AuthModel": {
+        "System.Guid MiniShoppingCartAPI.Controllers.AuthController/AuthModel::get_Id()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.String MiniShoppingCartAPI.Controllers.AuthController/AuthModel::get_Name()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.String MiniShoppingCartAPI.Controllers.AuthController/AuthModel::get_Email()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.String MiniShoppingCartAPI.Controllers.AuthController/AuthModel::get_UserType()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.Controllers.AuthController/AuthModel::.ctor(System.Guid,System.String,System.String,System.String)": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        }
+      },
+      "MiniShoppingCartAPI.Controllers.AuthController/UserInput": {
+        "System.String MiniShoppingCartAPI.Controllers.AuthController/UserInput::get_Username()": {
+          "Lines": {
+            "45": 8
+          },
+          "Branches": []
+        },
+        "System.String MiniShoppingCartAPI.Controllers.AuthController/UserInput::get_Password()": {
+          "Lines": {
+            "46": 3
+          },
+          "Branches": []
+        }
+      },
+      "MiniShoppingCartAPI.Controllers.AuthController/DisplayToUser": {
+        "System.Guid MiniShoppingCartAPI.Controllers.AuthController/DisplayToUser::get_UserId()": {
+          "Lines": {
+            "51": 0
+          },
+          "Branches": []
+        },
+        "System.String MiniShoppingCartAPI.Controllers.AuthController/DisplayToUser::get_AccessToken()": {
+          "Lines": {
+            "53": 0
+          },
+          "Branches": []
+        },
+        "System.String MiniShoppingCartAPI.Controllers.AuthController/DisplayToUser::get_message()": {
+          "Lines": {
+            "54": 0
+          },
+          "Branches": []
+        }
+      },
+      "MiniShoppingCartAPI.Controllers.AuthController/ErrorMessage": {
+        "System.Void MiniShoppingCartAPI.Controllers.AuthController/ErrorMessage::set_message(System.String)": {
+          "Lines": {
+            "59": 10
+          },
+          "Branches": []
+        }
+      },
+      "MiniShoppingCartAPI.Controllers.AuthController/<login>d__7": {
+        "System.Void MiniShoppingCartAPI.Controllers.AuthController/<login>d__7::MoveNext()": {
+          "Lines": {
+            "73": 5,
+            "75": 5,
+            "77": 5,
+            "78": 4,
+            "79": 4,
+            "81": 1,
+            "82": 1,
+            "83": 1,
+            "86": 0,
+            "87": 0,
+            "89": 0,
+            "92": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "116": 5
+          },
+          "Branches": [
+            {
+              "Line": 77,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 77,
+              "Offset": 169,
+              "EndOffset": 206,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 81,
+              "Offset": 237,
+              "EndOffset": 239,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 81,
+              "Offset": 237,
+              "EndOffset": 274,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Controllers\\CartController.cs": {
+      "MiniShoppingCartAPI.Controllers.CartController": {
+        "System.Void MiniShoppingCartAPI.Controllers.CartController::.ctor(MiniShoppingCartAPI.Services.IShoppingCartInfoRepository,MiniShoppingCartAPI.Services.IVerify)": {
+          "Lines": {
+            "24": 4,
+            "25": 4,
+            "26": 4,
+            "27": 4,
+            "28": 4
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 27,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 33,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 4
+            }
+          ]
+        }
+      },
+      "MiniShoppingCartAPI.Controllers.CartController/Message": {
+        "System.String MiniShoppingCartAPI.Controllers.CartController/Message::get_message()": {
+          "Lines": {
+            "32": 3
+          },
+          "Branches": []
+        },
+        "System.Void MiniShoppingCartAPI.Controllers.CartController/Message::.ctor()": {
+          "Lines": {
+            "30": 3
+          },
+          "Branches": []
+        }
+      },
+      "MiniShoppingCartAPI.Controllers.CartController/<AddToCart>d__4": {
+        "System.Void MiniShoppingCartAPI.Controllers.CartController/<AddToCart>d__4::MoveNext()": {
+          "Lines": {
+            "51": 2,
+            "52": 2,
+            "54": 2,
+            "55": 0,
+            "56": 0,
+            "58": 2,
+            "59": 0,
+            "60": 0,
+            "62": 2,
+            "63": 0,
+            "64": 0,
+            "66": 2,
+            "67": 0,
+            "68": 0,
+            "70": 2,
+            "71": 0,
+            "72": 0,
+            "75": 2,
+            "76": 1,
+            "77": 1,
+            "79": 1,
+            "80": 0,
+            "81": 0,
+            "84": 1,
+            "85": 1,
+            "86": 1,
+            "92": 1,
+            "93": 1,
+            "95": 1,
+            "97": 1,
+            "99": 2
+          },
+          "Branches": [
+            {
+              "Line": 54,
+              "Offset": 359,
+              "EndOffset": 361,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 359,
+              "EndOffset": 396,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 58,
+              "Offset": 534,
+              "EndOffset": 536,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 534,
+              "EndOffset": 571,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 62,
+              "Offset": 589,
+              "EndOffset": 591,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 589,
+              "EndOffset": 626,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 66,
+              "Offset": 764,
+              "EndOffset": 766,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 764,
+              "EndOffset": 801,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 70,
+              "Offset": 829,
+              "EndOffset": 831,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 829,
+              "EndOffset": 955,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 2
+            },
+            {
+              "Line": 75,
+              "Offset": 1096,
+              "EndOffset": 1101,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 79,
+              "Offset": 1279,
+              "EndOffset": 1281,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 79,
+              "Offset": 1279,
+              "EndOffset": 1405,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 1
+            },
+            {
+              "Line": 75,
+              "Offset": 1096,
+              "EndOffset": 1607,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "MiniShoppingCartAPI.Controllers.CartController/<Checkout>d__7": {
+        "System.Void MiniShoppingCartAPI.Controllers.CartController/<Checkout>d__7::MoveNext()": {
+          "Lines": {
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "221": 0,
+            "225": 0,
+            "226": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "251": 0,
+            "252": 0
+          },
+          "Branches": [
+            {
+              "Line": 205,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 205,
+              "Offset": 169,
+              "EndOffset": 206,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 212,
+              "Offset": 364,
+              "EndOffset": 366,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 212,
+              "Offset": 364,
+              "EndOffset": 401,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 217,
+              "Offset": 707,
+              "EndOffset": 440,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 217,
+              "Offset": 707,
+              "EndOffset": 712,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 234,
+              "Offset": 759,
+              "EndOffset": 761,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 234,
+              "Offset": 759,
+              "EndOffset": 851,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 241,
+              "Offset": 864,
+              "EndOffset": 866,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 241,
+              "Offset": 864,
+              "EndOffset": 953,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MiniShoppingCartAPI.Controllers.CartController/<RemoveFromCart>d__6": {
+        "System.Void MiniShoppingCartAPI.Controllers.CartController/<RemoveFromCart>d__6::MoveNext()": {
+          "Lines": {
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "176": 0,
+            "177": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "187": 0,
+            "189": 0,
+            "190": 0
+          },
+          "Branches": [
+            {
+              "Line": 161,
+              "Offset": 178,
+              "EndOffset": 180,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 161,
+              "Offset": 178,
+              "EndOffset": 215,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 165,
+              "Offset": 354,
+              "EndOffset": 356,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 165,
+              "Offset": 354,
+              "EndOffset": 391,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 171,
+              "Offset": 549,
+              "EndOffset": 551,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 171,
+              "Offset": 549,
+              "EndOffset": 586,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 176,
+              "Offset": 938,
+              "EndOffset": 621,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 180,
+              "Offset": 687,
+              "EndOffset": 692,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 180,
+              "Offset": 687,
+              "EndOffset": 919,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 176,
+              "Offset": 938,
+              "EndOffset": 943,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MiniShoppingCartAPI.Controllers.CartController/<ViewCart>d__5": {
+        "System.Void MiniShoppingCartAPI.Controllers.CartController/<ViewCart>d__5::MoveNext()": {
+          "Lines": {
+            "113": 2,
+            "114": 2,
+            "115": 0,
+            "116": 0,
+            "119": 2,
+            "122": 2,
+            "123": 1,
+            "124": 1,
+            "127": 1,
+            "129": 5,
+            "130": 1,
+            "132": 1,
+            "135": 1,
+            "138": 1,
+            "140": 1,
+            "144": 1,
+            "145": 2
+          },
+          "Branches": [
+            {
+              "Line": 114,
+              "Offset": 182,
+              "EndOffset": 184,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 182,
+              "EndOffset": 224,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 122,
+              "Offset": 382,
+              "EndOffset": 384,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 122,
+              "Offset": 382,
+              "EndOffset": 424,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 129,
+              "Offset": 835,
+              "EndOffset": 478,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 129,
+              "Offset": 835,
+              "EndOffset": 840,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Controllers\\ProductController.cs": {
+      "MiniShoppingCartAPI.Controllers.ProductController": {
+        "System.Void MiniShoppingCartAPI.Controllers.ProductController::.ctor(MiniShoppingCartAPI.Services.IShoppingCartInfoRepository)": {
+          "Lines": {
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "20": 2
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "MiniShoppingCartAPI.Controllers.ProductController/<ViewProducts>d__2": {
+        "System.Void MiniShoppingCartAPI.Controllers.ProductController/<ViewProducts>d__2::MoveNext()": {
+          "Lines": {
+            "32": 2,
+            "33": 2,
+            "35": 2,
+            "36": 1,
+            "37": 1,
+            "39": 1,
+            "41": 5,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "52": 1,
+            "54": 2
+          },
+          "Branches": [
+            {
+              "Line": 35,
+              "Offset": 163,
+              "EndOffset": 165,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 163,
+              "EndOffset": 188,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 41,
+              "Offset": 345,
+              "EndOffset": 219,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 41,
+              "Offset": 345,
+              "EndOffset": 347,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ManishGowdaNS\\source\\repos\\MiniShoppingCartAPI\\MiniShoppingCartAPI\\Controllers\\UserController.cs": {
+      "MiniShoppingCartAPI.Controllers.UserController": {
+        "System.Void MiniShoppingCartAPI.Controllers.UserController::.ctor(MiniShoppingCartAPI.Services.IShoppingCartInfoRepository)": {
+          "Lines": {
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "22": 3
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        }
+      },
+      "MiniShoppingCartAPI.Controllers.UserController/<RegisterUsers>d__2": {
+        "System.Void MiniShoppingCartAPI.Controllers.UserController/<RegisterUsers>d__2::MoveNext()": {
+          "Lines": {
+            "35": 6,
+            "36": 6,
+            "38": 6,
+            "39": 6,
+            "40": 1,
+            "41": 1,
+            "43": 5,
+            "44": 5,
+            "45": 1,
+            "46": 1,
+            "49": 4,
+            "50": 4,
+            "51": 4,
+            "55": 6
+          },
+          "Branches": [
+            {
+              "Line": 39,
+              "Offset": 190,
+              "EndOffset": 192,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 5
+            },
+            {
+              "Line": 39,
+              "Offset": 190,
+              "EndOffset": 221,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 39,
+              "Offset": 226,
+              "EndOffset": 228,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 39,
+              "Offset": 226,
+              "EndOffset": 251,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 5
+            },
+            {
+              "Line": 44,
+              "Offset": 401,
+              "EndOffset": 403,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 5
+            },
+            {
+              "Line": 44,
+              "Offset": 401,
+              "EndOffset": 432,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 437,
+              "EndOffset": 439,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 44,
+              "Offset": 437,
+              "EndOffset": 459,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 4
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MiniShoppingCartAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MiniShoppingCartAPI.Controllers.AuthController.login(MiniShoppingCartAPI.Controllers.AuthController.UserInput)">
+            <summary>
+            User Login
+            </summary>
+            <param name="user">Fill in <br/> Username : "username" <br/> Password : "password" <br/> to obtain the access token and User Id </param>
+            <returns>An IAction Result with</returns>
+            <response code="200">Returns Ok Action when username and password matches from the given input</response>
+            <response code="401">Returns Unauthorized Action when username does not exist or both username and password do not match</response>
+        </member>
+        <member name="M:MiniShoppingCartAPI.Controllers.CartController.AddToCart(System.Guid,MiniShoppingCartAPI.Models.CartDto)">
+            <summary>
+            Add To Cart
+            </summary>
+            <param name="cartDto">Provide <br/> Pid : "Product Id" that needs to be added into the cart<br/> Set Quantity : "Quantity of the product added" <br/> NOTE: When the process is repeated for any added product, then the product quanitiy in cart is updated</param>
+            <returns>An IAction Result with</returns>
+            <response code="200">Returns Ok Action when : <br/> Product is added into cart <br/> When product is updated into cart </response>
+            <response code="404">Returns Not Found Action when : <br/> User does not exist<br/>Product does not exist <br/> Product is out of stock </response>
+            <response code="400">Returns Not Bad Request Action when : <br/> Product Quantity is set to zero<br/>Entered Product Quantity is more then the present stock </response>
+            <response code="401">Returns Unauthorized Action when user is not authorized with access token</response>
+        </member>
+        <member name="M:MiniShoppingCartAPI.Controllers.CartController.ViewCart(System.Guid)">
+            <summary>
+            View Cart
+            </summary>
+            <returns>An IAction Result with</returns>
+            <response code="200">Returns Ok Action for the user to view the products added into cart</response>
+            <response code="404">Returns Not Found Action when : <br/> User does not exist<br/>User has not added any products into cart</response>
+            <response code="401">Returns Unauthorized Action when user is not authorized with access token</response>
+        </member>
+        <member name="M:MiniShoppingCartAPI.Controllers.CartController.RemoveFromCart(System.Guid,MiniShoppingCartAPI.Models.ProductIdDto)">
+            <summary>
+            Remove From Cart
+            </summary>
+            <param name="pid">Provide <br/> Pid : "Product Id" that needs to be removed into the cart<br/> </param>
+            <returns>An IAction Result with</returns>
+            <response code="200">Returns Ok Action when product is removed from cart </response>
+            <response code="404">Returns Not Found Action when : <br/> User does not exist<br/>Product does not exist <br/> User has not added any products into cart<br/> Product is out of stock </response>
+            <response code="401">Returns Unauthorized Action when user is not authorized with access token</response>
+        </member>
+        <member name="M:MiniShoppingCartAPI.Controllers.CartController.Checkout(System.Guid)">
+            <summary>
+            Checkout From Cart
+            </summary>
+            <returns>An IAction Result with</returns>
+            <response code="200">Returns Ok Action when products from user cart is checked out and Some products are checked out whereas others are left due to less stock </response>
+            <response code="404">Returns Not Found Action when : <br/> User does not exist<br/>Product does not exist <br/> User has not added any products into cart</response>
+            <response code="401">Returns Unauthorized Action when user is not authorized with access token</response>
+        </member>
+        <member name="M:MiniShoppingCartAPI.Controllers.ProductController.ViewProducts">
+            <summary>
+            Product Listing
+            </summary>
+            <response code="200">Returns Ok Action when products are present in database and lists them for users</response>
+            <response code="404">Returns Not Found Action when products database is empty </response>
+        </member>
+        <member name="M:MiniShoppingCartAPI.Controllers.UserController.RegisterUsers(MiniShoppingCartAPI.Models.UserDto)">
+            <summary>
+            User Registration
+            </summary>
+            <param name="userDto">Fill in <br/> Username : "username" <br/> Email : "email@gmail.com" <br/> Password : "password" <br/> for successful registration</param>
+            <returns>An IAction Result with</returns>
+            <response code="201">Returns Created Action when user is successfully registered</response>
+            <response code="409">Returns Conflict Action when username or userEmail exist in database</response>
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.SetupDb">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.SetupDb.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.SetupDb.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.SetupDb.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MiniShoppingCartAPI.Migrations.DB_Setup">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.DB_Setup.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.DB_Setup.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MiniShoppingCartAPI.Migrations.DB_Setup.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
